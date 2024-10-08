@@ -1,0 +1,7 @@
+- 👋 Hi, I’m @Safeer-Hussain
+- 👀 I’m interested in mobile app development, particularly using Flutter, and backend frameworks like FastAPI and Node.js.
+- 🌱 I’m currently learning advanced state management in Flutter and improving my skills with backend technologies.
+- 💞️ I’m looking to collaborate on cross-platform mobile app projects and innovative solutions that bridge the gap between mobile and web.
+- 📫 How to reach me: saferhusain1@gmail.com or connect on www.linkedin.com/in/saferhusain.
+- 😄 Pronouns: He/Him
+- ⚡ Fun fact: I love solving coding problems, especially while enjoying a good cup of coffee!
