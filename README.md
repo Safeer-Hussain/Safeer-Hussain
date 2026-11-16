@@ -33,26 +33,26 @@ Every application is engineered with **Feature-First Clean Architecture**, **SQL
 
 | Repository | Domain | State Management | Native Platform Bridge | Key Engineering Highlights |
 | :--- | :--- | :---: | :---: | :--- |
-| [**`octet-pulse`**](https://github.com/Safeer-Hussain/octet-pulse) | Workforce, Payroll & VoIP | `flutter_bloc` | SIP/WebRTC Audio & SRTP Telemetry | Geofenced clock-in, automated payroll ledger, live field GPS, encrypted VoIP dialer |
-| [**`fitone`**](https://github.com/Safeer-Hussain/fitone) | AI Fitness & Biometrics | `MobX` + `GetIt` | BLE Heart-Rate & Cadence Stream | Real-time workout telemetry, macro ledger, adaptive periodization, AI coach |
-| [**`openpro`**](https://github.com/Safeer-Hussain/openpro) | B2B Service & Escrow | `Provider` + `GetIt` | Biometric Escrow Signing | Milestone escrow vault, SLA bidding, live technician dispatch, invoice generator |
-| [**`agoramarket`**](https://github.com/Safeer-Hussain/agoramarket) | Multi-Vendor Quick Commerce | `Riverpod` + `GetIt` | Geofence & Thermal POS Bridge | Multi-cart split checkout, dark-store stock sync, live rider polyline routing |
-| [**`cityzens`**](https://github.com/Safeer-Hussain/cityzens) | Smart City & Civic Ops | `Provider` + `GetIt` | Environmental & Transit Telemetry | Geotagged incident reporting, municipal SLA tracker, live transit corridors |
-| [**`golfer`**](https://github.com/Safeer-Hussain/golfer) | Golf Rangefinder & Telemetry | `MobX` + `GetIt` | IMU Swing Tempo & Wind Bridge | Vector hole flyovers, Haversine pin yardage, strokes-gained dispersion analytics |
+| [**`octetpulse_app`**](https://github.com/Safeer-Hussain/octetpulse_app) | Workforce, Payroll & VoIP | `flutter_bloc` | SIP/WebRTC Audio & SRTP Telemetry | Geofenced clock-in, automated payroll ledger, live field GPS, encrypted VoIP dialer |
+| [**`fitone_app`**](https://github.com/Safeer-Hussain/fitone_app) | AI Fitness & Biometrics | `MobX` + `GetIt` | BLE Heart-Rate & Cadence Stream | Real-time workout telemetry, macro ledger, adaptive periodization, AI coach |
+| [**`openpro_app`**](https://github.com/Safeer-Hussain/openpro_app) | B2B Service & Escrow | `Provider` + `GetIt` | Biometric Escrow Signing | Milestone escrow vault, SLA bidding, live technician dispatch, invoice generator |
+| [**`agoramarket_app`**](https://github.com/Safeer-Hussain/agoramarket_app) | Multi-Vendor Quick Commerce | `Riverpod` + `GetIt` | Geofence & Thermal POS Bridge | Multi-cart split checkout, dark-store stock sync, live rider polyline routing |
+| [**`cityzens_app`**](https://github.com/Safeer-Hussain/cityzens_app) | Smart City & Civic Ops | `Provider` + `GetIt` | Environmental & Transit Telemetry | Geotagged incident reporting, municipal SLA tracker, live transit corridors |
+| [**`golfer_app`**](https://github.com/Safeer-Hussain/golfer_app) | Golf Rangefinder & Telemetry | `MobX` + `GetIt` | IMU Swing Tempo & Wind Bridge | Vector hole flyovers, Haversine pin yardage, strokes-gained dispersion analytics |
 
 ### Specialized Industry Platforms
 
 | Repository | Domain | State Management | Native Platform Bridge | Key Engineering Highlights |
 | :--- | :--- | :---: | :---: | :--- |
-| [**`payvault`**](https://github.com/Safeer-Hussain/payvault) | FinTech Multi-Currency Neo-Bank | `GetX` + `GetIt` | Hardware Biometric KeyStore Enclave | 5-currency FX vault, frosted virtual card studio, QR P2P transfers, split-bill engine |
+| [**`payvault_app`**](https://github.com/Safeer-Hussain/payvault_app) | FinTech Multi-Currency Neo-Bank | `GetX` + `GetIt` | Hardware Biometric KeyStore Enclave | 5-currency FX vault, frosted virtual card studio, QR P2P transfers, split-bill engine |
 | [**`vitalis_app`**](https://github.com/Safeer-Hussain/vitalis_app) | Telemedicine & Lab Diagnostics | `Riverpod` | BLE Blood Pressure, CGM & SpO2 | Live clinical telemetry, biomarker range panels, Rx adherence ring, AI triage |
 | [**`fleetroute_app`**](https://github.com/Safeer-Hussain/fleetroute_app) | Autonomous Fleet Telematics | `flutter_bloc` | OBD-II CAN-Bus & DTC Diagnostics | Multi-stop Haversine route optimizer, touch-drawn ePOD signature pad, tire/RPM HUD |
-| [**`nexushome`**](https://github.com/Safeer-Hussain/nexushome) | Smart Home & Solar Grid | `Riverpod` | Matter/Thread Mesh & Smart Meter | Interactive mesh topology canvas, solar-to-battery flow, IF-THEN rule automation |
-| [**`estateview`**](https://github.com/Safeer-Hussain/estateview) | PropTech & Spatial Tours | `flutter_bloc` | ARCore/ARKit Room Polygon Scanner | Interactive vector floorplan hotspots, geospatial amenity radius, mortgage ROI studio |
-| [**`voyageai`**](https://github.com/Safeer-Hussain/voyageai) | AI Expedition & Travel Vault | `GetX` + `GetIt` | Barometric Altimeter & Compass | Multi-city route polylines, perforated barcode boarding passes, FX expense ledger |
+| [**`nexushome_app`**](https://github.com/Safeer-Hussain/nexushome_app) | Smart Home & Solar Grid | `Riverpod` | Matter/Thread Mesh & Smart Meter | Interactive mesh topology canvas, solar-to-battery flow, IF-THEN rule automation |
+| [**`estateview_app`**](https://github.com/Safeer-Hussain/estateview_app) | PropTech & Spatial Tours | `flutter_bloc` | ARCore/ARKit Room Polygon Scanner | Interactive vector floorplan hotspots, geospatial amenity radius, mortgage ROI studio |
+| [**`voyageai_app`**](https://github.com/Safeer-Hussain/voyageai_app) | AI Expedition & Travel Vault | `GetX` + `GetIt` | Barometric Altimeter & Compass | Multi-city route polylines, perforated barcode boarding passes, FX expense ledger |
 | [**`echostream_app`**](https://github.com/Safeer-Hussain/echostream_app) | Lossless Spatial Audio Studio | `flutter_bloc` | 10-Band Parametric DSP & 32-Band FFT | Real-time harmonic spectrum visualizer, live speaker rooms, interactive transcripts |
-| [**`omnicart`**](https://github.com/Safeer-Hussain/omnicart) | 15-Min Retail & POS Terminal | `Riverpod` | Optical UPC Barcode & NFC Tap POS | Variant configurator, promo engine, live 15-min courier ETA map, barcode comparator |
-| [**`skillforge`**](https://github.com/Safeer-Hussain/skillforge) | EdTech & Code Sandbox | `flutter_bloc` | Native AST Code Runner & Focus Timer | Live Dart code execution sandbox, SM-2 spaced-repetition flashcards, Socratic AI mentor |
+| [**`omnicart_app`**](https://github.com/Safeer-Hussain/omnicart_app) | 15-Min Retail & POS Terminal | `Riverpod` | Optical UPC Barcode & NFC Tap POS | Variant configurator, promo engine, live 15-min courier ETA map, barcode comparator |
+| [**`skillforge_app`**](https://github.com/Safeer-Hussain/skillforge_app) | EdTech & Code Sandbox | `flutter_bloc` | Native AST Code Runner & Focus Timer | Live Dart code execution sandbox, SM-2 spaced-repetition flashcards, Socratic AI mentor |
 
 ---
 
