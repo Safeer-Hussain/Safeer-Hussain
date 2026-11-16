@@ -32,7 +32,7 @@ Every application is engineered with **Feature-First Clean Architecture**, **SQL
 ### Core Flagship & Workforce Ecosystems
 
 | Repository | Domain | State Management | Native Platform Bridge | Key Engineering Highlights |
-| :--- | :--- | :---: | :--- | :--- |
+| :--- | :--- | :---: | :---: | :--- |
 | [**`octet-pulse`**](https://github.com/Safeer-Hussain/octet-pulse) | Workforce, Payroll & VoIP | `flutter_bloc` | SIP/WebRTC Audio & SRTP Telemetry | Geofenced clock-in, automated payroll ledger, live field GPS, encrypted VoIP dialer |
 | [**`fitone`**](https://github.com/Safeer-Hussain/fitone) | AI Fitness & Biometrics | `MobX` + `GetIt` | BLE Heart-Rate & Cadence Stream | Real-time workout telemetry, macro ledger, adaptive periodization, AI coach |
 | [**`openpro`**](https://github.com/Safeer-Hussain/openpro) | B2B Service & Escrow | `Provider` + `GetIt` | Biometric Escrow Signing | Milestone escrow vault, SLA bidding, live technician dispatch, invoice generator |
@@ -43,7 +43,7 @@ Every application is engineered with **Feature-First Clean Architecture**, **SQL
 ### Specialized Industry Platforms
 
 | Repository | Domain | State Management | Native Platform Bridge | Key Engineering Highlights |
-| :--- | :--- | :---: | :--- | :--- |
+| :--- | :--- | :---: | :---: | :--- |
 | [**`payvault`**](https://github.com/Safeer-Hussain/payvault) | FinTech Multi-Currency Neo-Bank | `GetX` + `GetIt` | Hardware Biometric KeyStore Enclave | 5-currency FX vault, frosted virtual card studio, QR P2P transfers, split-bill engine |
 | [**`vitalis_app`**](https://github.com/Safeer-Hussain/vitalis_app) | Telemedicine & Lab Diagnostics | `Riverpod` | BLE Blood Pressure, CGM & SpO2 | Live clinical telemetry, biomarker range panels, Rx adherence ring, AI triage |
 | [**`fleetroute_app`**](https://github.com/Safeer-Hussain/fleetroute_app) | Autonomous Fleet Telematics | `flutter_bloc` | OBD-II CAN-Bus & DTC Diagnostics | Multi-stop Haversine route optimizer, touch-drawn ePOD signature pad, tire/RPM HUD |
@@ -81,21 +81,7 @@ graph TD
     UI --> SM
     SM --> UC
     UC --> REPO_INT
-    REPO_INT <|.. REPO_IMPL
+    REPO_INT -.-> REPO_IMPL
     REPO_IMPL --> SQL
     REPO_IMPL --> DIO
     REPO_IMPL --> BRIDGE
-```
-
----
-
-## Technical Stack & Quality Gates
-
-- **Languages & SDKs:** Dart (3.13 / 3.14+), Flutter (3.47 / 3.50+), Kotlin (Android SDK 36), Swift (iOS)
-- **State Management & DI:** `flutter_bloc`, `flutter_riverpod`, `get` (GetX), `mobx`, `provider`, `get_it`
-- **Persistence & Networking:** `sqflite`, `shared_preferences`, `dio`, `connectivity_plus`, custom offline sync queues
-- **Geospatial & Visualization:** `flutter_map` (OpenStreetMap), `latlong2`, `fl_chart`, custom `CustomPainter` vector engines
-- **Automated Verification (`tool/sprint_gate.dart` & GitHub Actions):**
-  - Zero static analysis warnings (`flutter analyze --no-fatal-infos`)
-  - Automated unit and widget test suites verifying 800x360 landscape viewports, unique `Hero` tags, and Dark/Light `ColorScheme` parity
-  - Physical Android hardware smoke verification via `adb logcat` runtime inspection
