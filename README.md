@@ -1,13 +1,22 @@
 # Safeer Hussain
 
-**Senior Flutter & Mobile Solution Architect | Team Lead**  
-*Designing offline-first enterprise mobile ecosystems, native Kotlin/Swift hardware bridges, and zero-dependency Dart packages.*
+**System Architect & App Engineer | AI, Cybersecurity & Cloud/DevOps**  
+*Designing resilient, offline-first systems, cross-platform mobile ecosystems, native hardware bridges, security-minded architectures, and automated CI/CD release pipelines.*
 
 [![GitHub Followers](https://img.shields.io/github/followers/Safeer-Hussain?label=Follow&style=flat-square)](https://github.com/Safeer-Hussain)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Safeer_Hussain-0A66C2?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/saferhusain)
+[![Credly](https://img.shields.io/badge/Credly-Verified_Certifications-FF6B00?style=flat-square&logo=credly)](https://www.credly.com/users/safer-husain)
 [![pub.dev Publisher](https://img.shields.io/badge/pub.dev-5_Published_Packages-0175C2?style=flat-square&logo=dart)](https://pub.dev/packages?q=dependency%3Aadaptive_pane_scaffold+OR+sm2_spaced_repetition+OR+token_stream_controller+OR+dio_resilience_mock+OR+geofence_haversine)
-[![Flutter](https://img.shields.io/badge/Flutter-3.50+-02569B?style=flat-square&logo=flutter)](https://flutter.dev)
-[![Dart](https://img.shields.io/badge/Dart-3.14+-0175C2?style=flat-square&logo=dart)](https://dart.dev)
-[![Architecture](https://img.shields.io/badge/Architecture-Clean_MVVM_%2B_SOLID-10B981?style=flat-square)](#architectural-blueprint)
+[![Architecture](https://img.shields.io/badge/Architecture-Clean_Architecture_%2B_SOLID-10B981?style=flat-square)](#architectural-blueprint)
+
+---
+
+## Core Engineering Pillars
+
+- **System Architecture & Offline-First Design:** Feature-first Clean Architecture, deterministic state engines, local SQLite persistence, and zero-dependency modular libraries.
+- **AI-Driven Workflows & Telemetry:** Asynchronous LLM token streaming, intelligent copilots, adaptive learning schedulers, and real-time sensor/biometric telemetry pipelines.
+- **Security & Cryptographic Integrity:** Hardware KeyStore/Enclave biometric signing, SHA-256 & HMAC document sealing, GPG-signed commits/releases, and fault-tolerant network layers.
+- **Cloud, DevOps & Release Automation:** End-to-end GitHub Actions CI/CD pipelines with automated static analysis gates, unit/widget test suites, and signed binary publishing.
 
 ---
 
@@ -27,7 +36,7 @@ Modular, zero-bloat packages extracted from production ecosystems, supporting An
 
 ## Enterprise & Domain Application Suite (15 Production Repositories)
 
-Every application is engineered with **Feature-First Clean Architecture**, **SQLite (`sqflite`) offline-first persistence**, **Kotlin & Swift `MethodChannel` / `EventChannel` bridges**, **360dp-safe dual-pane landscape support**, and **automated GitHub Actions CI**.
+Every application is engineered with **Feature-First Clean Architecture**, **SQLite (`sqflite`) offline-first persistence**, **Kotlin & Swift `MethodChannel` / `EventChannel` bridges**, **360dp-safe dual-pane landscape support**, and **automated GitHub Actions CI/CD**.
 
 ### Core Flagship & Workforce Ecosystems
 
